@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container-result-1 {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  max-width: 50%;
+  margin: auto;
+}
+
+.container-result {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  max-width: 35%;
+  margin: auto;
+}
+
+.container-result-2 {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column;
+  text-align: right;
+  max-width: 35%;
+  margin: 0 auto;
+}
+.final {
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 90%;
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.container-general {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-general-2 {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
+button {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: grey;
+}
+button:hover {
+  font-size: large;
+}
